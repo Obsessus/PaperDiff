@@ -1,0 +1,50 @@
+# Environment variables
+.env
+.env.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data & uploaded files (Storage policy: clean sessions)
+data/papers/*
+!data/papers/.gitkeep
+temp/
+*.pdf
+
+# Streamlit
+.streamlit/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+tests/screenshots/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
